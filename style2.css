@@ -1,0 +1,132 @@
+:root {
+    --main-color: #009719;
+    --dark-color: #000000;
+    --darkgreen-color: #01430c;
+}
+
+/* General Styles */
+body {
+    margin: 0;
+    font-family: "Kalnia Glaze", serif;
+    scroll-behavior: smooth;
+
+}
+
+.box1 {
+    background-color: var(--dark-color);
+    padding: 12px;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    font-size: large;
+}
+
+.box2 img {
+    margin-top: 36px;
+    box-shadow: 0px 0px 15px;
+    cursor: pointer;
+    margin-left: 18px;
+    width: 480px;
+    /* Set width for images */
+    height: 450px;
+    /* Set height for images */
+    object-fit: cover;
+    /* Maintain aspect ratio */
+    border: 5px solid var(--main-color);
+}
+
+.container-sm {
+
+    background-color: rgba(114, 114, 114, 0.355);
+    margin: 30px;
+    box-shadow: 0px 0px 15px;
+    border: 3px solid var(--dark-color);
+}
+
+.box3 {
+    margin: 30px;
+}
+
+.box3 p {
+
+    text-align: center;
+    font-size: 18px;
+
+}
+
+#bottomnav a{
+justify-content: space-around;
+}
+
+/*Page3 sugercane*/
+.page2b {
+    width: 100%;
+    margin-left: 22px;
+    justify-content: space-between;
+    margin: 20px;
+
+
+}
+
+.page2b img {
+    margin-top: 36px;
+    box-shadow: 0px 0px 15px;
+    cursor: pointer;
+    width: 480px;
+    /* Set width for images */
+    height: 450px;
+    /* Set height for images */
+    object-fit: cover;
+    /* Maintain aspect ratio */
+    border: 5px solid var(--main-color);
+}
+
+
+.text-end p {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-size: 18px;
+    margin-top: 22px;
+}
+
+.page2c {
+
+    background-color: gray;
+    color: #fff;
+    box-shadow: 0px 0px 15px black;
+    margin: 20px;
+    border: 3px solid var(--dark-color);
+    margin-left: 22PX;
+}
+
+
+
+/*page4 deseges */
+#b1 {
+    background-color: var(--main-color);
+}
+
+#page4d {
+    background-color: #fff;
+    border: var(--dark-color);
+    box-shadow: 0px 0px 15px;
+    margin: 12px;
+}
+
+#page4d .wheatd {
+
+    margin: 20px;
+    margin-left: 20px;
+
+}
+
+#nav1 {
+    margin-top: 12px;
+    border-bottom: 3px solid var(--dark-color);
+}
+
+.disease-item {
+    margin: 10px 0;
+}
